@@ -11,4 +11,4 @@ uvicorn==0.34.0
 whitenoise==6.8.2
 djangorestframework
 django-cors-headers
-
+dj-rest-auth
