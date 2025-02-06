@@ -76,7 +76,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'dj_rest_auth',
     'rest_framework',
-    'sorter',
+    'requester.sorter',
 ]
 
 MIDDLEWARE = [
