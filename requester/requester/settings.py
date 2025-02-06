@@ -51,6 +51,7 @@ SOCIALACCOUNT_PROVIDERS = {
 # Allow CORS from frontend
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://cse598-requester.onrender.com",
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
