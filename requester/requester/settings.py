@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-maw2r1#7=^-5c9ssm&f12%n692@#_(k1wtj1+us!b@s*a6k8t7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://cse598-requester.onrender.com/']
+ALLOWED_HOSTS = ["*"]
 
 SITE_ID = 1  # Required for django-allauth
 
@@ -49,10 +49,7 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 
 # Allow CORS from frontend
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://cse598-requester.onrender.com",
-]
+CORS_ALLOWED_ORIGINS = ["*"]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
