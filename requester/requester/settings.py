@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-maw2r1#7=^-5c9ssm&f12%n692@#_(k1wtj1+us!b@s*a6k8t7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://cse598-requester.onrender.com/']
 
 SITE_ID = 1  # Required for django-allauth
 
