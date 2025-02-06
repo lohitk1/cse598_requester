@@ -38,7 +38,6 @@ REST_USE_JWT = True  # Use JWT tokens for authentication
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',  # Default authentication
-    'allauth.account.auth_backends.AuthenticationBackend',  # Allow social authentication
 )
 
 # Google OAuth settings
@@ -76,10 +75,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     'dj_rest_auth',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',
     'rest_framework',
     'sorter',
 ]
@@ -94,7 +89,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'requester.urls'
