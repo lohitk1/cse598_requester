@@ -51,6 +51,12 @@ SOCIALACCOUNT_PROVIDERS = {
 # Allow CORS from frontend
 CORS_ALLOWED_ORIGINS = ["*"]
 
+# If you want to allow all origins (for debugging only)
+CORS_ALLOW_ALL_ORIGINS = True  # Not recommended for production
+
+# If using cookies or authentication
+CORS_ALLOW_CREDENTIALS = True
+
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Enable JWT authentication
